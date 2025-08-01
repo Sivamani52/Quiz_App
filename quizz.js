@@ -134,7 +134,7 @@ function Displayque()
             if(selector == quizData[currentque].answer)
             {
                 score++;
-                alert("Correct");
+                alert("Correct ✅");
                 document.querySelector(".score").textContent=`score: ${score}`;
             }
             else
