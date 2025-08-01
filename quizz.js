@@ -139,7 +139,7 @@ function Displayque()
             }
             else
             {
-                alert("Wrong");
+                alert(`Wrong ❌  \n  \n Answer: ${quizData[currentque].answer}`);
             }
      
 
