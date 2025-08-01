@@ -1,0 +1,132 @@
+body{
+    font-family: sans-serif;
+    border:border-box;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(180deg,rgb(50, 50, 231),blACK);
+
+}
+
+.container{
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-box{
+   
+    height:400px;
+    width:600px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgb(159, 14, 159);
+    padding:20px;
+}
+
+.line{
+  border: none;            
+  height: 2px;             
+  background-color: blue; 
+  
+}
+.question{
+    font-size: 1.3rem;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:20px;
+    padding:6px 20px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap:17px;
+    margin-top:5px;
+}
+.options button{
+     padding:10px 20px;
+    text-align: start;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.options button:hover{
+    background-color: rgba(144, 238, 144, 0.434);
+}
+
+
+
+.next button{
+    padding:10px 20px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.692);
+    margin:20px 44%;
+    cursor:pointer;
+}
+.next button:hover{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+
+.list{
+    position: relative;
+    left:-30%;
+}
+
+.score{
+    position:absolute;
+    right:30%;
+    top:23%;
+    color:rgb(47, 255, 109);
+}
+
+@media(max-width:400px) {
+
+    .container{
+        margin-left:60px;
+    }
+
+    .question{
+        font-size: 1rem;
+         margin-top:30px;
+         padding:4px 20px;
+    }
+
+
+.score{
+    position:absolute;
+    right:21%;
+    top:24%;
+    color:rgb(47, 255, 109);
+    }
+
+   .list{
+    width:350px;
+    position: relative;
+    left:-48%;
+
+    }
+
+    .list h3{
+        font-size:20px;
+        display: flex;
+
+    }
+    .next button{
+         margin:20px 35%;
+    }
+    .options{
+        gap:9px;
+    }
+}
