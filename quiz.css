@@ -92,7 +92,7 @@ body{
 @media(max-width:540px) {
 
    .score{
-    margin-left:80;
+    margin-left:75%;
    }
 
 
@@ -108,15 +108,15 @@ body{
 
 
 .quiz-box{
-      
-    height:450px;
-    width:400px;
+    margin-left:15%;
+    height:470px;
+    width:450px;
 }
 
    .list{
     width:350px;
     position: relative;
-    left:-48%;
+    left:-36%;
 
     }
 
