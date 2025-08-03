@@ -8,97 +8,97 @@ const quizData = [
       "She don't likes apples."
     ],
     answer: "She doesn't like apples."
+  },
+  {
+    question: "Choose the correct form of the verb: 'He ____ to school every day.'",
+    options: [
+      "go",
+      "goes",
+      "gone",
+      "going"
+    ],
+    answer: "goes"
+  },
+  {
+    question: "What is the past tense of 'write'?",
+    options: [
+      "writed",
+      "wrote",
+      "written",
+      "writing"
+    ],
+    answer: "wrote"
+  },
+  {
+    question: "Identify The Adjective: 'The quick brown fox jumps over the lazy dog.'",
+    options: [
+      "fox",
+      "jumps",
+      "quick",
+      "dog"
+    ],
+    answer: "quick"
+  },
+  {
+    question: "Which is a correct question tag? 'She is coming, ____?'",
+    options: [
+      "isn't she",
+      "doesn't she",
+      "won't she",
+      "didn't she"
+    ],
+    answer: "isn't she"
+  },
+  {
+    question: "What type of word is 'happily'?",
+    options: [
+      "Adjective",
+      "Verb",
+      "Noun",
+      "Adverb"
+    ],
+    answer: "Adverb"
+  },
+  {
+    question: "Which of these is a preposition?",
+    options: [
+      "beautiful",
+      "under",
+      "quickly",
+      "jump"
+    ],
+    answer: "under"
+  },
+  {
+    question: "Choose the correct article: 'He bought ___ umbrella.'",
+    options: [
+      "a",
+      "an",
+      "the",
+      "no article needed"
+    ],
+    answer: "an"
+  },
+  {
+    question: "Select the correct plural form: 'Child'",
+    options: [
+      "Childs",
+      "Childes",
+      "Children",
+      "Childrens"
+    ],
+    answer: "Children"
+  },
+  {
+    question: "What is the correct form of this sentence? 'He can sings well.'",
+    options: [
+      "He can sing well.",
+      "He can sang well.",
+      "He can sung well.",
+      "He cans sing well."
+    ],
+    answer: "He can sing well."
   }
-  // {
-  //   question: "Choose the correct form of the verb: 'He ____ to school every day.'",
-  //   options: [
-  //     "go",
-  //     "goes",
-  //     "gone",
-  //     "going"
-  //   ],
-  //   answer: "goes"
-  // },
-  // {
-  //   question: "What is the past tense of 'write'?",
-  //   options: [
-  //     "writed",
-  //     "wrote",
-  //     "written",
-  //     "writing"
-  //   ],
-  //   answer: "wrote"
-  // },
-  // {
-  //   question: "Identify The Adjective: 'The quick brown fox jumps over the lazy dog.'",
-  //   options: [
-  //     "fox",
-  //     "jumps",
-  //     "quick",
-  //     "dog"
-  //   ],
-  //   answer: "quick"
-  // },
-  // {
-  //   question: "Which is a correct question tag? 'She is coming, ____?'",
-  //   options: [
-  //     "isn't she",
-  //     "doesn't she",
-  //     "won't she",
-  //     "didn't she"
-  //   ],
-  //   answer: "isn't she"
-  // },
-  // {
-  //   question: "What type of word is 'happily'?",
-  //   options: [
-  //     "Adjective",
-  //     "Verb",
-  //     "Noun",
-  //     "Adverb"
-  //   ],
-  //   answer: "Adverb"
-  // },
-  // {
-  //   question: "Which of these is a preposition?",
-  //   options: [
-  //     "beautiful",
-  //     "under",
-  //     "quickly",
-  //     "jump"
-  //   ],
-  //   answer: "under"
-  // },
-  // {
-  //   question: "Choose the correct article: 'He bought ___ umbrella.'",
-  //   options: [
-  //     "a",
-  //     "an",
-  //     "the",
-  //     "no article needed"
-  //   ],
-  //   answer: "an"
-  // },
-  // {
-  //   question: "Select the correct plural form: 'Child'",
-  //   options: [
-  //     "Childs",
-  //     "Childes",
-  //     "Children",
-  //     "Childrens"
-  //   ],
-  //   answer: "Children"
-  // },
-  // {
-  //   question: "What is the correct form of this sentence? 'He can sings well.'",
-  //   options: [
-  //     "He can sing well.",
-  //     "He can sang well.",
-  //     "He can sung well.",
-  //     "He cans sing well."
-  //   ],
-  //   answer: "He can sing well."
-  // }
 ];
 
 
